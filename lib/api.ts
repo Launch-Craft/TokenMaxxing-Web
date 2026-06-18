@@ -1,7 +1,7 @@
 export const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8787'
 export const DOWNLOAD_FALLBACK =
   process.env.NEXT_PUBLIC_DOWNLOAD_FALLBACK ||
-  'https://github.com/acmediamarketing/tokenmaxxing/releases/latest'
+  'https://github.com/Launch-Craft/TokenMaxxing-Desktop/releases/latest'
 
 export interface ReleaseInfo {
   version: string
